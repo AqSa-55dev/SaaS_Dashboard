@@ -1,0 +1,120 @@
+.topbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem 2rem;
+  background: var(--surface-bg);
+  border-bottom: 1px solid var(--border-color);
+  position: sticky;
+  top: 0;
+  z-index: 50;
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+}
+
+.topbar-left h2 {
+  font-family: 'Outfit', sans-serif;
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: var(--text-primary);
+}
+
+.topbar-left p {
+  font-size: 0.85rem;
+  color: var(--text-tertiary);
+  margin-top: 0.15rem;
+}
+
+.topbar-right {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+.topbar-search {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.5rem 1rem;
+  border-radius: 10px;
+  background: var(--input-bg);
+  border: 1px solid var(--border-color);
+  transition: border-color 0.2s ease;
+}
+
+.topbar-search:focus-within {
+  border-color: var(--accent-primary);
+}
+
+.topbar-search input {
+  border: none;
+  background: none;
+  outline: none;
+  color: var(--text-primary);
+  font-size: 0.85rem;
+  width: 180px;
+}
+
+.topbar-search input::placeholder {
+  color: var(--text-tertiary);
+}
+
+.topbar-search svg {
+  color: var(--text-tertiary);
+  width: 16px;
+  height: 16px;
+}
+
+.topbar-btn {
+  width: 40px;
+  height: 40px;
+  border-radius: 10px;
+  border: 1px solid var(--border-color);
+  background: var(--input-bg);
+  color: var(--text-secondary);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  position: relative;
+}
+
+.topbar-btn:hover {
+  color: var(--text-primary);
+  border-color: var(--accent-primary);
+  background: var(--hover-bg);
+}
+
+.topbar-btn .notification-dot {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: #ef4444;
+  border: 2px solid var(--surface-bg);
+}
+
+.theme-toggle-icon {
+  transition: transform 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.theme-toggle-icon.rotate {
+  transform: rotate(180deg);
+}
+
+@media (max-width: 768px) {
+  .topbar {
+    padding: 1rem 1.25rem;
+  }
+
+  .topbar-search {
+    display: none;
+  }
+
+  .topbar-left h2 {
+    font-size: 1.25rem;
+  }
+}

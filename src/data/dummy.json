@@ -1,0 +1,172 @@
+{
+  "kpis": [
+    {
+      "id": 1,
+      "label": "Total Revenue",
+      "value": "$48,295",
+      "change": 12.5,
+      "trend": "up",
+      "icon": "DollarSign"
+    },
+    {
+      "id": 2,
+      "label": "Active Users",
+      "value": "2,847",
+      "change": 8.2,
+      "trend": "up",
+      "icon": "Users"
+    },
+    {
+      "id": 3,
+      "label": "Conversion Rate",
+      "value": "3.24%",
+      "change": -2.1,
+      "trend": "down",
+      "icon": "TrendingUp"
+    },
+    {
+      "id": 4,
+      "label": "Monthly Recurring",
+      "value": "$12,487",
+      "change": 4.3,
+      "trend": "up",
+      "icon": "CreditCard"
+    }
+  ],
+  "monthlyRevenue": [
+    { "month": "Jan", "revenue": 18200, "expenses": 12400, "profit": 5800 },
+    { "month": "Feb", "revenue": 21300, "expenses": 13100, "profit": 8200 },
+    { "month": "Mar", "revenue": 19800, "expenses": 12800, "profit": 7000 },
+    { "month": "Apr", "revenue": 24500, "expenses": 14200, "profit": 10300 },
+    { "month": "May", "revenue": 28100, "expenses": 15600, "profit": 12500 },
+    { "month": "Jun", "revenue": 26700, "expenses": 14800, "profit": 11900 },
+    { "month": "Jul", "revenue": 31200, "expenses": 16200, "profit": 15000 },
+    { "month": "Aug", "revenue": 34800, "expenses": 17500, "profit": 17300 },
+    { "month": "Sep", "revenue": 33500, "expenses": 16900, "profit": 16600 },
+    { "month": "Oct", "revenue": 38200, "expenses": 18400, "profit": 19800 },
+    { "month": "Nov", "revenue": 42100, "expenses": 19800, "profit": 22300 },
+    { "month": "Dec", "revenue": 48295, "expenses": 21200, "profit": 27095 }
+  ],
+  "revenueBySource": [
+    { "source": "Subscriptions", "value": 28400, "color": "#8b5cf6" },
+    { "source": "One-time", "value": 8200, "color": "#06b6d4" },
+    { "source": "Enterprise", "value": 7895, "color": "#10b981" },
+    { "source": "API Access", "value": 3800, "color": "#f59e0b" }
+  ],
+  "trafficData": [
+    { "source": "Organic Search", "visitors": 12400, "percentage": 42 },
+    { "source": "Direct", "visitors": 8200, "percentage": 28 },
+    { "source": "Referral", "visitors": 5100, "percentage": 17 },
+    { "source": "Social Media", "visitors": 3800, "percentage": 13 }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "name": "Olivia Chen",
+      "email": "olivia.chen@example.com",
+      "plan": "Enterprise",
+      "status": "active",
+      "joined": "2025-12-15",
+      "spent": 2480
+    },
+    {
+      "id": 2,
+      "name": "Marcus Johnson",
+      "email": "marcus.j@example.com",
+      "plan": "Pro",
+      "status": "active",
+      "joined": "2026-01-08",
+      "spent": 1240
+    },
+    {
+      "id": 3,
+      "name": "Sophie Williams",
+      "email": "sophie.w@example.com",
+      "plan": "Starter",
+      "status": "inactive",
+      "joined": "2025-11-22",
+      "spent": 320
+    },
+    {
+      "id": 4,
+      "name": "James Park",
+      "email": "james.park@example.com",
+      "plan": "Pro",
+      "status": "active",
+      "joined": "2026-02-14",
+      "spent": 960
+    },
+    {
+      "id": 5,
+      "name": "Amara Osei",
+      "email": "amara.o@example.com",
+      "plan": "Enterprise",
+      "status": "active",
+      "joined": "2025-10-03",
+      "spent": 4200
+    },
+    {
+      "id": 6,
+      "name": "Liam Foster",
+      "email": "liam.f@example.com",
+      "plan": "Starter",
+      "status": "active",
+      "joined": "2026-03-19",
+      "spent": 160
+    },
+    {
+      "id": 7,
+      "name": "Elena Rodriguez",
+      "email": "elena.r@example.com",
+      "plan": "Pro",
+      "status": "pending",
+      "joined": "2026-04-01",
+      "spent": 480
+    },
+    {
+      "id": 8,
+      "name": "Noah Kim",
+      "email": "noah.kim@example.com",
+      "plan": "Enterprise",
+      "status": "active",
+      "joined": "2025-09-28",
+      "spent": 5600
+    },
+    {
+      "id": 9,
+      "name": "Ava Patel",
+      "email": "ava.p@example.com",
+      "plan": "Pro",
+      "status": "active",
+      "joined": "2026-01-30",
+      "spent": 1120
+    },
+    {
+      "id": 10,
+      "name": "Ethan Brooks",
+      "email": "ethan.b@example.com",
+      "plan": "Starter",
+      "status": "inactive",
+      "joined": "2026-05-12",
+      "spent": 80
+    },
+    {
+      "id": 11,
+      "name": "Mia Thompson",
+      "email": "mia.t@example.com",
+      "plan": "Pro",
+      "status": "active",
+      "joined": "2026-02-28",
+      "spent": 840
+    },
+    {
+      "id": 12,
+      "name": "Daniel Wright",
+      "email": "daniel.w@example.com",
+      "plan": "Enterprise",
+      "status": "active",
+      "joined": "2025-08-15",
+      "spent": 7200
+    }
+  ]
+}
