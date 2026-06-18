@@ -1,6 +1,10 @@
 # Metric — SaaS Analytics Dashboard
 
-![Metric Dashboard Preview](./public/vite.svg) <!-- You can replace this with an actual screenshot of the dashboard later! -->
+<!-- 
+📸 Add your screenshot here!
+Take a screenshot of your dashboard, save it as `preview.png` in the `public/` folder, and uncomment the line below:
+![Metric Dashboard Preview](./public/preview.png) 
+-->
 
 A premium, modern SaaS analytics dashboard built with **React** and **Vite**. Features a polished, glassmorphic design, dark/light mode toggle, responsive layout, and beautiful data visualizations.
 
